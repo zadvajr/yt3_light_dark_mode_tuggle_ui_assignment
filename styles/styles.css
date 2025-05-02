@@ -1,0 +1,104 @@
+/* Reset & Base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+    line-height: 1.6;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.toggle-btn {
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.toggle-btn:hover {
+    background-color: #e0e0e0;
+}
+
+/* About Me Section */
+.about-me {
+    padding: 40px 20px;
+    background-color: #e6f0ff;
+    text-align: center;
+}
+
+.about-me h2 {
+    color: #007bff;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.about-me p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+/* Projects Section */
+.projects {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects li {
+    font-size: 18px;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Adjust footer color when in dark mode */
+.dark-mode * {
+    background-color: #1e1e1e;
+    color: #aaa;
+}
